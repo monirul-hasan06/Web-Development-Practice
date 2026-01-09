@@ -1,0 +1,59 @@
+
+
+
+body{
+    background-color: papayawhip;
+}
+
+header{
+    color: blue;
+    border: 2px dotted red;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+#name{
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    color:purple;
+}
+
+.grey{
+    color: grey;
+}
+
+.div1{
+    height: 300px;
+    width: 300px;
+    background-color: darkgray;
+    position:relative;
+    left: 100px;
+   
+    
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color:azure;
+    position: relative;
+    left: 0px;
+    border-radius: 50%;
+    bottom: 60px;
+    left: 140px;
+    
+}
+.div3{
+    position: relative;
+    top: 150px;
+    left: 40px;
+}

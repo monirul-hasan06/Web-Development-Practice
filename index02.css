@@ -1,0 +1,27 @@
+div{
+    height:40px;
+    width: 80px;
+    background-color: red;
+   
+}
+#h1{
+    color: blue;
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+    border: dotted red 5px
+}
+
+button{
+    button
+    color: green;
+    background-color: pink;
+    
+}
+p{
+    color: goldenrod;
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

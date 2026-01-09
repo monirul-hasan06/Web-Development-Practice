@@ -1,0 +1,34 @@
+body{
+    background-color:darkgrey;
+}
+
+
+.div2{
+    height: 40px;
+    width: 40px;
+    border-top: 3px solid whitesmoke;
+
+    
+    animation: spinAnimation 2s ease-in-out 0s infinite normal ;
+    position: relative;
+    top: 160px;
+    left: 120px;
+    border-radius:50%;
+    ;
+    
+
+}
+
+@keyframes spinAnimation{
+    from{
+       
+       border-top: whitesmoke;
+       transform: rotate(0deg);
+    }
+    to{
+        
+        border-top:whitesmoke;
+       
+        transform:rotate(360deg)
+    }
+}

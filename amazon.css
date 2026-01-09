@@ -1,0 +1,130 @@
+*{
+    color: white;
+    text-decoration: none;
+   
+    font-family: roboto;
+    font-style: italic;
+    border-radius: 10px;
+    
+
+}
+body{
+    background-color: rgb(199, 188, 188);
+    border: 3px solid black;
+}
+#navber{
+     background-color: rgb(4, 151, 26);
+    height:60px;
+ 
+    a{
+    margin-right: 145px;
+    .select{
+        color: black;
+    }
+    border: 5px solid black;
+    
+    
+}
+ #select{
+        color: rgb(192, 180, 180);
+        width: 45px;
+        background-color: rgb(78, 72, 72)
+        border: 3px;
+        border-radius: 10px;
+    }
+  #input{
+        color: black;
+        border: 3px;
+        border-radius: 10px;
+    }
+    
+
+}
+
+button{
+    background-color:#f08804;
+    border: 3px;
+    border-radius: 10px;
+
+}
+
+
+#bertwo{
+    height: 40px;
+    background-color: rgb(19, 134, 80);
+    border: 3px;
+    border-radius: 10px;
+
+a{
+    margin-right: 100px;
+}
+}
+#divv{
+    height: 300px;
+    background-color: rgb(197, 240, 6);
+    #p1{
+        color: black;
+        margin-left: 80px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 30px;
+        
+    }
+
+}
+
+p2{
+    color: black;
+    font-size: 30px;
+    margin-left:80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400px;
+    font-weight: 900;
+}
+
+#p3{
+    color: black;
+    font-size: 30px;
+    margin-left:80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#div4{
+    background-color:aqua;
+    display: flex;
+    border: 3px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    div{
+        border: 2px solid red;
+        display: flex;
+        justify-content:center;
+        
+
+    }
+    
+};
+#div7{
+     h3{
+        color: black;
+    }
+    background-color: rgb(228, 227, 227);
+    height: 180px;
+    position: relative;
+    top: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#div8{
+     h3{
+        color: rgb(248, 237, 237);
+    }
+    background-color: rgb(46, 43, 43);
+    height: 180px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    margin-top:180px;
+    width:100vw;
+}

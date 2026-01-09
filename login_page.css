@@ -1,0 +1,99 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
+
+button{
+    background-color:aqua;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    width: 130px;
+    margin: 8px;
+    position:relative;
+    left: 110px;
+    top: 10px;
+     animation:animation 2s ease-in-out 2s infinite normal;
+    
+
+}
+
+h2{
+    color:forestgreen;
+}
+ .div1{
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color:antiquewhite;
+    
+}
+.div2{
+    height: 400px;
+    width: 400px;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    align-content:center;
+    display: inline;
+    position: relative;
+    left: 500px;
+    
+    
+    
+}
+
+.div3{
+    position:relative;
+    left: 110px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    display: inline-block;
+    
+}
+p{
+    position:relative;
+    left: 95px;
+    color: forestgreen;
+    
+}
+input{
+    position:relative;
+    left: 95px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    animation:animation2 2s ease-in-out 0s infinite normal;
+}
+
+
+@keyframes animation{
+    from{
+        background-color: rgba(0, 255, 255, 0.548);
+    }
+    to{
+        background-color: rgb(0, 255, 255);
+    }
+
+}
+
+@keyframes animation2{
+    from{
+        color: black;
+    }
+    to{
+        color:blueviolet;
+    }
+
+
+}
+
+:hover{
+    border-radius:0px;
+}

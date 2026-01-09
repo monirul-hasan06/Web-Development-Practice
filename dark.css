@@ -1,0 +1,43 @@
+/* light mode default*/
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color:#000000;
+
+    position:relative;
+    top: 20px;
+    left: 20px;
+
+    transition: 0.3s;
+}
+
+/* Dark Mode*/
+body.dark{
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/*Button Style */
+
+button{
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #000;
+    color: #fff;
+    transition: 0.3s;
+
+    border-radius: 1rem;
+
+}
+
+/* Button style in Dark Mode*/
+body.dark button{
+    background-color: #fff;
+    color: #000;
+}
